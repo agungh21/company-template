@@ -1,0 +1,32 @@
+/* slider h3 & h5 , client h3 */
+.slider h3,
+.slider h5,
+.clients h3{
+    /* membuat text shadow */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+/* parallax */
+.parallax-container{
+    /* membuat tinggi */
+    height: 20%;
+}
+
+.parallax img{
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+/* gambar s */
+.clients img.image{
+    max-width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+/* services */
+section, footer{
+    padding: 20px 0;
+}
